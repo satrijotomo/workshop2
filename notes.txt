@@ -1,0 +1,18 @@
+ec2-35-172-62-15.compute-1.amazonaws.com
+
+Repository:
+===========
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 116879082194.dkr.ecr.us-east-1.amazonaws.com
+116879082194.dkr.ecr.us-east-1.amazonaws.com/workshop2
+
+rds
+====
+postgres
+admin123
+Endpoint: nctutorials.camljqnqntd7.us-east-1.rds.amazonaws.com
+Port: 5432
+
+EC2:
+====
+ec2-35-172-62-15.compute-1.amazonaws.com
+Elastic IP: 35.172.62.15
